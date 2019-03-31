@@ -1,0 +1,88 @@
+.view,body,html{
+    height:100%
+}
+.carousel{
+    height:50%
+}
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item{
+    height:100%
+}
+@media (max-width:776px){
+    .carousel{height:100%
+    }
+}
+.navbar{
+    background-color:rgba(0,0,0,.2)
+}
+.page-footer,.top-nav-collapse{
+    background-color:#929FBA
+}
+@media only screen and (max-width:768px){
+    
+    .navbar{
+        background-color:#929FBA
+    }
+}
+
+html,
+body,
+header,
+.carousel {
+    height: 100vh;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.carousel {
+    height: 100vh;
+}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.carousel {
+    height: 100vh;
+}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #00adff94!important;
+        }
+}
+.rgba-black-light{
+    background-color: rgba(0, 0, 0, 0.349);
+
+}
+/* .view::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+
+} */
+.navbar-brand{
+    position: absolute;
+    left: 46%;
+    top: 0
+}
+.page-footer, .top-nav-collapse{
+    background-color: #00adff94;
+
+}
+.navbar.scrolling-navbar.top-nav-collapse,
+nav.navbar.fixed-top.navbar-expand-lg.navbar-dark.scrolling-navbar
+{
+    padding: 20px 0;
+    font-weight: 600;
+
+}
